@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, input, li, ul, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav.navbar {
+    height: 5rem;
+}
+
+
+.navbar-nav {
+    width: 100%;
+    justify-content: end;
+}
+
+
+.nav-item.home::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 4.8rem;
+    top: 4.9rem;
+    border-bottom: 2.5px solid white;
+}
+
+.nav-item {
+    padding-inline: 1rem;
+}
+
+.nav-item>a{
+    white-space: nowrap;
+    color: white;
+}
+
+.navbar-toggler-icon.navbar-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler.navbar-mobile-button {
+    border-color: white;
+  } 
+
+
+.background {
+    background: url("./img/Rectangle.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+hr.hr {
+    border: 0.5px solid white;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.page-heading{
+    height: calc(900px - 5rem);
+}
+
+.page-heading-row {
+    height: 100%;
+    margin: 0;
+}
+
+button.btn-projects {
+    font-size: 14px;
+}
+
+/* .first-sect-container {
+    height: 500px;
+} */
+
+.first-sect-row {
+    height: 100%;
+}
+
+
+.first-sect-text {
+    color: grey;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.247);
+}
+
+.standards-background {
+    background-color: #E0E0E0;
+}
+
+.standards-heading, .first-sect-heading, .video-sect-heading, .specialty-heading, .projects-heading  {
+    font-size: 40px;
+}
+
+.standards-img-div {
+    overflow: none;
+    object-fit: cover;
+}
+
+.standards-img-div>img {
+    width: 80%;
+}
+
+
+img.project-img {
+    height: 40px;
+}
+
+.standards-img {
+    margin: 0;
+}
+
+.standards-icon-text {
+    margin: 0;
+    font-size: 30px;
+}
+
+.background-group-cards {
+    background-image: url("./img/Rectangle-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+.specialty-img {
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.specialty {
+    overflow: hidden;
+}
+
+
+.our-projects-background {
+    background-color: #F6F6F8;
+}
+
+button.btn {
+    font-size: 14px;
+}
+
+.projects-text {
+    color: grey;
+}
+
+.background-video {
+    background-image: url("./img/video-img.png");
+    background-repeat: no-repeat;
+    height: 430px;
+    background-position: center;
+}
+
+.video-sect-background {
+    background-image: url("./img/video-section-background.png");
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 768px) {
+    .standards-heading, .first-sect-heading, .video-sect-heading, .specialty-heading, .projects-heading  {
+        font-size: 30px;
+    }
+}
+.video-img-icon {
+    height: 100px;
+}
+
+hr.hr-video {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.email-form {
+    box-shadow: 0px 0px 10px 0px #6f6f6f48;
+    border: none;
+}
+.email-form-input {
+    padding-left: 1rem;
+}
+
+.form-container {
+    margin-bottom: 3rem;
+}
+
+.footer-background {
+    background-color: #F6F6F8;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-list>li {
+    margin-block: 1rem;
+}
+
+.link-list>li::before {
+    content: ">";
+    margin-right: 1rem;
+    color: #999999;
+}
+
+.footer-row>.column>h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: start;
+}
+
+li>a {
+    text-decoration: none;
+    color:#999999;
+    font-size: 13px;
+}
+
+.rights {
+    font-family: "Montserrat", sans-serif;
+    color:#999999;
+    font-size: 13px;
+}
