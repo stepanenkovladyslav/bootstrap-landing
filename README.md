@@ -1,4 +1,4 @@
 # bootstrap-landing
 
 
-Landing page created using Bootstrap
+Landing page created using Bootstraр
